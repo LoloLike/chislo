@@ -1,0 +1,12 @@
+body {
+	background-color: gray;
+}
+
+div {
+	border: 5px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	background-image: url(images.jpg);
+	background-repeat: no-repeat;
+	background-size: 750px 300px;
+}

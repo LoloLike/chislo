@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>угадай число</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		span {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Угадай число</h1>
+		<p>Компьютер загадал число. Попробуйте его отгадать. Введите число в текстовом поле и нажмите на кнопку "Проверить".</p>
+		<p>Подсказка: <span class="hint">Я буду подсказывать</span></p>
+		<p>Количество попыток: <span class="attempts">3</span></p>
+		<input type="number">
+		<button class="check">Проверить</button>
+		<button class="new_game">Новая игра</button>
+		<script src="script.js"></script>
+	</div>
+</body>
+</html>
